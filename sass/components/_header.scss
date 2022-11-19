@@ -1,0 +1,138 @@
+.nav {
+  display: flex;
+  width: 254px;
+  margin: 32px 350px 32px 0;
+  justify-content: space-between;
+  list-style-type: none;
+  line-height: 0.875;
+}
+.contacts {
+  display: flex;
+  width: 295px;
+  margin: 32px 0 32px 0;
+  justify-content: space-between;
+  list-style-type: none;
+  line-height: 0.875;
+  align-items: center;
+}
+.contacts__icons {
+  fill: var(--light-grey);
+  align-items: stretch;
+}
+.contacts__icons:hover {
+  fill: var(--blue);
+  cursor: pointer;
+}
+
+.logo {
+  width: 145px;
+  margin: 24px 93px 25px 0;
+  display: flex;
+  text-decoration: none;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+}
+.logo__web {
+  color: #000000;
+  text-decoration: none;
+}
+
+.logo__studio {
+  text-decoration: none;
+  color: var(--blue);
+}
+.nav__agency {
+  position: relative;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.1428;
+  letter-spacing: 0.02em;
+
+  color: var(--dark-grey);
+}
+.nav__agency:hover {
+  color: var(--blue);
+}
+.nav__portfolio {
+  position: relative;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.1428;
+  letter-spacing: 0.02em;
+  color: var(--dark-grey);
+}
+.nav__portfolio:hover {
+  color: var(--blue);
+}
+.active-link:after {
+  content: "";
+  position: absolute;
+  left: -10%;
+  bottom: -33px;
+  width: 120%;
+  height: 5px;
+  background-color: var(--blue);
+}
+.nav__contact {
+  position: relative;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.1428;
+  letter-spacing: 0.02em;
+  color: var(--dark-grey);
+}
+.nav__contact:hover {
+  color: var(--blue);
+}
+a {
+  text-decoration: none;
+  color: var(--light-grey);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contacts__email {
+  font-size: 14px;
+  line-height: 1.1428;
+  letter-spacing: 0.02em;
+  color: var(--light-grey);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contacts__email:hover {
+  color: var(--blue);
+}
+.contacts__email:focus {
+  color: var(--blue);
+}
+a:hover {
+  color: var(--blue);
+}
+a:focus {
+  color: var(--blue);
+}
+
+.contacts__telephone {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.1428;
+  letter-spacing: 0.02em;
+  color: var(--light-grey);
+  align-items: center;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contacts__telephone:hover {
+  color: var(--blue);
+}
+.contacts__telephone:focus {
+  color: var(--blue);
+}
+.header {
+  box-sizing: border-box;
+  display: flex;
+  max-width: 1200px;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 15px;
+}

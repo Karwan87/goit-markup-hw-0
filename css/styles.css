@@ -1,26 +1,24 @@
-:root {
+/* :root {
   --blue: #2196f3;
   --white: #ffffff;
   --light-grey: #757575;
   --dark-grey: #212121;
   --dark-white: #afb1b8;
-}
-body {
+  --black: #000000;
+} */
+/* body {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
-}
-.section {
+} */
+/* .section {
   text-align: center;
   padding: 47px 0 94px 0;
   margin: 0 auto;
   max-width: 1200px;
   width: 100%;
-}
-.second-background {
-  background: #f5f4fa;
-}
-.background-prologue {
+} */
+/* .slider {
   background-image: linear-gradient(
       to bottom,
       rgba(110, 108, 108, 0.3),
@@ -39,7 +37,7 @@ body {
   text-transform: uppercase;
   color: #ffffff;
 }
-.text {
+.btn-text {
   margin-bottom: 30px;
   width: 200px;
   height: 50px;
@@ -59,19 +57,19 @@ body {
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.text:hover {
+.btn-text:hover {
   background: #0a2f4d;
   color: #fcfcfc;
-}
-.nav {
+} */
+/* .nav {
   display: flex;
   width: 254px;
   margin: 32px 350px 32px 0;
   justify-content: space-between;
   list-style-type: none;
   line-height: 0.875;
-}
-.contacts {
+} */
+/* .contacts {
   display: flex;
   width: 295px;
   margin: 32px 0 32px 0;
@@ -192,8 +190,8 @@ a:focus {
 }
 .contacts__telephone:focus {
   color: var(--blue);
-}
-.advantages__name {
+} */
+/* .advantages__name {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1428;
@@ -210,18 +208,18 @@ a:focus {
   letter-spacing: 0.03em;
 
   color: var(--light-grey);
-}
+} */
 
-.responsibilities {
+/* .responsibilities {
   display: block;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1666;
   letter-spacing: 0.03em;
   color: var(--dark-grey);
-}
+} */
 
-.team {
+/* .team {
   text-align: center;
   font-weight: 700;
   font-size: 36px;
@@ -239,17 +237,17 @@ a:focus {
   height: 428px;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-.clients {
+} */
+/* .clients {
   text-align: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1666;
   letter-spacing: 0.03em;
   color: var(--dark-grey);
-}
+} */
 
-.footer {
+/* .footer {
   width: 100%;
   background: #2f303a;
   gap: 15px;
@@ -278,13 +276,13 @@ a:focus {
   letter-spacing: 0.03em;
   margin-bottom: 60px;
   color: var(--white);
-}
+} */
 
-li {
+/* li {
   list-style-type: none;
-}
+} */
 
-.btn-list__button {
+/* .btn-list__button {
   font-size: 16px;
   font-weight: bold;
   line-height: 1.625;
@@ -315,8 +313,8 @@ li {
   color: var(--white);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-.grid__portfoliobox {
+} */
+/* .grid__portfoliobox {
   background: var(--white);
   border: 1px solid #eeeeee;
   margin: 0 auto;
@@ -360,8 +358,8 @@ li {
 .grid__portfolio-img {
   overflow: hidden;
   position: relative;
-}
-.team__teammate-name {
+} */
+/* .team__teammate-name {
   padding-top: 30px;
   font-size: 16px;
   line-height: 1.1875;
@@ -370,8 +368,8 @@ li {
   letter-spacing: 0.03em;
 
   color: var(--dark-grey);
-}
-.team__jobstatus {
+} */
+/* .team__jobstatus {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.1875;
@@ -379,8 +377,8 @@ li {
   justify-content: center;
   letter-spacing: 0.03em;
   color: var(--light-grey);
-}
-.grid__portfolio-name {
+} */
+/* .grid__portfolio-name {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -400,73 +398,55 @@ li {
   color: var(--light-grey);
   margin-top: 4px;
   padding: 0;
-}
-.header {
+} */
+/* .header {
   box-sizing: border-box;
   display: flex;
   max-width: 1200px;
   align-items: center;
   margin: 0 auto;
   padding: 0 15px;
-}
-.btn-list {
+} */
+/* .btn-list {
   box-sizing: border-box;
   display: flex;
   max-width: 1200px;
   justify-content: space-around;
   gap: 8px;
   margin: 0 50% 0 50%;
-}
+} */
 
-.support-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.second-support-container {
-  flex-direction: column;
-  align-items: flex-start;
-}
-.third-support-container {
-  color: var(--white);
-  font-weight: 700;
-  font-size: 14px;
-  display: inline-block;
-  justify-content: flex-start;
-  align-items: center;
-  margin-top: 72px;
-}
-.advantages {
+/* .advantages {
   display: flex;
   list-style-type: none;
   line-height: 0.875;
-}
-.responsibilities-box {
+} */
+/* .responsibilities-box {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
   line-height: 0.875;
   align-items: center;
   text-align: center;
-}
-.team__box {
+} */
+/* .team__box {
   display: flex;
   list-style-type: none;
   line-height: 0.875;
-}
+} */
 
-ul {
+/* ul {
   padding-inline-start: 0;
-}
-.grid {
+} */
+/* .grid {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
   line-height: 0.875;
   flex-wrap: wrap;
   row-gap: 30px;
-}
-.team__social-links {
+} */
+/* .team__social-links {
   box-sizing: content-box;
   display: flex;
   margin-inline-start: 32px;
@@ -489,8 +469,9 @@ ul {
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   align-items: left;
   border-radius: 50%;
-}
-.clients__logo {
+ } */
+
+/* .clients__logo {
   position: relative;
   padding: 18px 32px 14px 32px;
   box-sizing: border-box;
@@ -523,14 +504,14 @@ ul {
 .clients__pointer:hover {
   cursor: pointer;
   fill: var(--blue);
-}
-.social-title {
+} */
+/* .footer__join-us {
   color: var(--white);
   display: flex;
   text-align: left;
   font-size: 14px;
-}
-.footer__social-icon {
+} */
+/* .footer__social-icon {
   fill: var(--white);
   display: flex;
   text-align: left;
@@ -539,9 +520,9 @@ ul {
   border-radius: 50%;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.advantages__icon-box {
+/* .advantages__icon-box {
   background: #f5f4fa;
   width: 270px;
   height: 120px;
@@ -549,9 +530,9 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
-.footer__social-icons-links {
+/* .footer__social-icons-links {
   display: flex;
   gap: 10px;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -570,8 +551,8 @@ ul {
 .footer__details {
   margin-right: 70px;
   align-items: left;
-}
-.responsibilities-name {
+} */
+/* .responsibilities-name {
   position: relative;
   text-transform: uppercase;
   font-size: 14px;
@@ -585,8 +566,8 @@ ul {
   justify-content: center;
   align-items: center;
   letter-spacing: 0.03em;
-}
-.backdrop {
+} */
+/* .backdrop {
   position: fixed;
   left: 0;
   top: 0;
@@ -640,8 +621,8 @@ ul {
   font-size: 20px;
   font-weight: 700;
   color: #212121;
-}
-.footer__subscribe-form {
+} */
+/* .footer__subscribe-form {
   display: flex;
   text-align: left;
   justify-content: center;
@@ -652,9 +633,9 @@ ul {
   font-size: 14px;
   font-weight: 700;
   color: #212121;
-}
+} */
 
-.fieldset {
+/* .fieldset {
   position: relative;
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -679,8 +660,8 @@ ul {
   margin-left: 12px;
   margin-right: 12px;
   transition: 250ms fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer__subscribe-form-icon {
+} */
+/* .footer__subscribe-form-icon {
   fill: var(--white);
   display: flex;
   justify-content: center;
@@ -688,8 +669,8 @@ ul {
   margin-left: 12px;
   margin-right: 12px;
   transition: 250ms fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.fieldset-window {
+} */
+/* .fieldset-window {
   position: absolute;
   top: -16px;
   font-size: 12px;
@@ -710,7 +691,7 @@ ul {
 .fieldset:has(input:focus) .form-icon {
   fill: var(--blue);
 }
-.conditionalfieldset responsibilities-name {
+.conditionalfieldset {
   top: -15px;
 }
 .conditionalfieldset {
@@ -747,10 +728,10 @@ ul {
   font-size: 20px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.mailfieldset:has(input:focus) {
-  border: 1px solid var(--blue);
-}
-.footer__newsletter {
+/* .mailfieldset:has(input:focus) {
+  border: 1px solid var(--blue); 
+} */
+/* .footer__newsletter {
   margin-top: 60px;
   margin-bottom: 20px;
   letter-spacing: 0.03em;
@@ -795,9 +776,9 @@ ul {
 }
 .footer__subscribe-form input:focus {
   outline: 0;
-}
+} */
 
-.rodo {
+/* .rodo {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -840,6 +821,9 @@ ul {
   opacity: 0;
   margin-top: 20px;
 }
+input:hover ~ .icon {
+  cursor: pointer;
+}
 input:checked ~ .icon {
   background-color: var(--blue);
   fill: var(--white);
@@ -867,4 +851,4 @@ textarea {
 }
 textarea:focus {
   outline: none;
-}
+} */

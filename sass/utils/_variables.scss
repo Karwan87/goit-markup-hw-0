@@ -1,0 +1,40 @@
+:root {
+  --blue: #2196f3;
+  --white: #ffffff;
+  --light-grey: #757575;
+  --dark-grey: #212121;
+  --dark-white: #afb1b8;
+  --black: #000000;
+}
+body {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+}
+ul {
+  padding-inline-start: 0;
+}
+.btn-text {
+  margin-bottom: 30px;
+  width: 200px;
+  height: 50px;
+  margin-top: 30px;
+  background: var(--blue);
+  border-color: var(--blue);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 0.533;
+  align-items: center;
+  text-align: center;
+  color: var(--white);
+  cursor: pointer;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn-text:hover {
+  background: #0a2f4d;
+  color: #fcfcfc;
+}

@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css"/>
     <link rel="stylesheet " href="./normalizer.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -38,10 +39,10 @@
       </ul>
     </header>
     <main>
-      <section class="section background-prologue">
+      <section class="section slider">
         <div >
           <h1 class="title">EFEKTYWNE ROZWIĄZANIA <p>DLA WASZEGO BIZNESU</p></h1>
-          <div><button class="text" type="button" data-modal-open>Zamów usługę</button>
+          <div><button class="btn-text" type="button" data-modal-open>Zamów usługę</button>
          
         </div>
       </section>
@@ -132,7 +133,7 @@
           </li>
         </ul></div>
       </section>
-      <section class="section second-background">
+      <section class="section">
         <div >
         <h2 class="team">Nasz zespół</h2>
         <ul class="team__box">
@@ -290,7 +291,7 @@
 </svg></button>
               </form></div>
             </div>
-    </footer></section>
+    </footer>
     <div class="backdrop is-hidden" data-modal>
 <div class="modal">
   <button type="button" class="modal-btn" data-modal-close>X</button>
@@ -298,7 +299,7 @@
     Zostaw swoje dane w formularzu poniżej
 
     <fieldset class="fieldset">
-      <responsibilities-name class="fieldset-window"  for="name">Imie</responsibilities-name>
+      <label class="fieldset-window"  for="name">Imie</label>
       <svg class="form-icon" height="18px" width="18px" title>
         <use xlink:href="./images/SVG/icons.svg#icon-person-black" ></use>
       </svg>
@@ -306,7 +307,7 @@
     </fieldset>
 
     <fieldset class="fieldset">
-      <responsibilities-name class="fieldset-window"  for="phone">Phone</responsibilities-name>
+      <label class="fieldset-window"  for="phone">Phone</label>
       <svg class="form-icon" height="18px" width="18px" title>
         <use xlink:href="./images/SVG/icons.svg#icon-phone-black"></use>
       </svg>
@@ -314,31 +315,31 @@
     </fieldset>
 
     <fieldset class="fieldset">
-      <responsibilities-name class="fieldset-window"  for="contacts__email">E-mail</responsibilities-name>
+      <label class="fieldset-window"  for="email">E-mail</label>
       <svg class="form-icon" height="18px" width="18px" title>
-        <use xlink:href="./images/SVG/icons.svg#icon-contacts__email-black"></use>
+        <use xlink:href="./images/SVG/icons.svg#icon-email-black"></use>
       </svg>
-      <input type="contacts__email" name="name" id="contacts__email" />
+      <input type="email" name="name" id="email" />
     </fieldset>
 
     <fieldset class="conditionalfieldset">
-      <responsibilities-name class="fieldset-window" for="komentarz">Komentarz</responsibilities-name>
+      <label class="fieldset-window" for="komentarz">Komentarz</label>
       <textarea name="komentarz" type="komentarz" id="komentarz" rows="5" placeholder="Wprowadź tekst"></textarea>
   
      </fieldset>
 
-     <responsibilities-name class="rodo-box" for="legal">
+     <label class="rodo-box" for="legal">
         <input class="checkbox" type="checkbox" name="legal" id="legal" />
       <svg class="icon" title>
         <use xlink:href="./images/SVG/icons.svg#icon-vector" width="16px" height="15px">
         </use>
       </svg>
-    <responsibilities-name class="rodo" for="legal">Oświadczam iż akceptuję 
+    <label class="rodo" for="legal">Oświadczam iż akceptuję 
         <a class="regulamine"> Regulamin</a> i 
-        <a class="privacy"> Politykę Prywatności.</a></responsibilities-name>
-      </responsibilities-name>
+        <a class="privacy"> Politykę Prywatności.</a></label>
+      </label>
 
-    <button class="text" type="submit">
+    <button class="btn-text" type="submit">
       Wyślij
     </button></div>
   </form>
