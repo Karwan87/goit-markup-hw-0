@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
     <link rel="stylesheet" href="./css/main.min.css"/>
     <link rel="stylesheet " href="./normalizer.css" />
     <meta charset="UTF-8" />
@@ -102,7 +102,7 @@
       <section class="section">
         <div>
         <h2 class="responsibilities">Czym się zajmujemy</h2>
-        <ul class="responsibilities-box">
+        <ul class="responsibilities__box">
           <li>
             <div>
             <img
@@ -110,7 +110,7 @@
               width="370"
               height="294"
               alt="Plac roboczy z rozrysowaną strukturą ścieżki"
-            /><div class="responsibilities-name">aplikacje komputerowe</div></div>
+            /><div class="responsibilities__name">aplikacje komputerowe</div></div>
           </li>
           <li>
             <div>
@@ -119,7 +119,7 @@
               width="370"
               height="294"
               alt="Paleta kolorów widoczna na ekranie przenośnym"
-            /><div class="responsibilities-name">aplikacje mobilne</div>
+            /><div class="responsibilities__name">aplikacje mobilne</div>
           </div></li>
           <li>
             <div>
@@ -129,7 +129,7 @@
               height="294"
               alt="Układ aplikacji do telefonu widoczny na ekranie laptopa"
             />
-            <div class="responsibilities-name">rozwiązania graficzne</div></div>
+            <div class="responsibilities__name">rozwiązania graficzne</div></div>
           </li>
         </ul></div>
       </section>
@@ -293,57 +293,57 @@
             </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
-<div class="modal">
-  <button type="button" class="modal-btn" data-modal-close>X</button>
-  <form class="my-form">
-    Zostaw swoje dane w formularzu poniżej
-
-    <fieldset class="fieldset">
-      <label class="fieldset-window"  for="name">Imie</label>
-      <svg class="form-icon" height="18px" width="18px" title>
-        <use xlink:href="./images/SVG/icons.svg#icon-person-black" ></use>
-      </svg>
-      <input type="text" name="name" id="name" />
-    </fieldset>
-
-    <fieldset class="fieldset">
-      <label class="fieldset-window"  for="phone">Phone</label>
-      <svg class="form-icon" height="18px" width="18px" title>
-        <use xlink:href="./images/SVG/icons.svg#icon-phone-black"></use>
-      </svg>
-      <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" />
-    </fieldset>
-
-    <fieldset class="fieldset">
-      <label class="fieldset-window"  for="email">E-mail</label>
-      <svg class="form-icon" height="18px" width="18px" title>
-        <use xlink:href="./images/SVG/icons.svg#icon-email-black"></use>
-      </svg>
-      <input type="email" name="name" id="email" />
-    </fieldset>
-
-    <fieldset class="conditionalfieldset">
-      <label class="fieldset-window" for="komentarz">Komentarz</label>
-      <textarea name="komentarz" type="komentarz" id="komentarz" rows="5" placeholder="Wprowadź tekst"></textarea>
-  
-     </fieldset>
-
-     <label class="rodo-box" for="legal">
-        <input class="checkbox" type="checkbox" name="legal" id="legal" />
-      <svg class="icon" title>
-        <use xlink:href="./images/SVG/icons.svg#icon-vector" width="16px" height="15px">
-        </use>
-      </svg>
-    <label class="rodo" for="legal">Oświadczam iż akceptuję 
-        <a class="regulamine"> Regulamin</a> i 
-        <a class="privacy"> Politykę Prywatności.</a></label>
-      </label>
-
-    <button class="btn-text" type="submit">
-      Wyślij
-    </button></div>
-  </form>
-</div>
+      <div class="modal">
+        <button type="button" class="modal-btn" data-modal-close>X</button>
+        <form class="my-form">
+          Zostaw swoje dane w formularzu poniżej
+      
+          <fieldset class="my-form__fieldset">
+            <label class="my-form__fieldset-window"  for="name">Imie</label>
+            <svg class="my-form__form-icon" height="18px" width="18px" title>
+              <use xlink:href="./images/SVG/icons.svg#icon-person-black" ></use>
+            </svg>
+            <input type="text" name="name" id="name" />
+          </fieldset>
+      
+          <fieldset class="my-form__fieldset">
+            <label class="my-form__fieldset-window"  for="phone">Phone</label>
+            <svg class="my-form__form-icon" height="18px" width="18px" title>
+              <use xlink:href="./images/SVG/icons.svg#icon-phone-black"></use>
+            </svg>
+            <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" />
+          </fieldset>
+      
+          <fieldset class="my-form__fieldset">
+            <label class="my-form__fieldset-window"  for="email">E-mail</label>
+            <svg class="my-form__form-icon" height="18px" width="18px" title>
+              <use xlink:href="./images/SVG/icons.svg#icon-email-black"></use>
+            </svg>
+            <input type="email" name="name" id="email" />
+          </fieldset>
+      
+          <fieldset class="my-form__conditionalfieldset">
+            <label class="my-form__fieldset-window" for="komentarz">Komentarz</label>
+            <textarea name="komentarz" type="komentarz" id="komentarz" rows="5" placeholder="Wprowadź tekst"></textarea>
+        
+           </fieldset>
+      
+           <label class="my-form__rodo" for="legal">
+              <input class="my-form__checkbox" type="checkbox" name="legal" id="legal" />
+            <svg class="my-form__icon" title>
+              <use xlink:href="./images/SVG/icons.svg#icon-vector" width="16px" height="15px">
+              </use>
+            </svg>
+          <label class="my-form__rodo-text" for="legal">Oświadczam iż akceptuję 
+              <a class="my-form__regulamine"> Regulamin</a> i 
+              <a class="my-form__privacy"> Politykę Prywatności.</a></label>
+            </label>
+      
+          <button class="btn-text" type="submit">
+            Wyślij
+          </button></div>
+        </form>
+      </div>
     </div>
     <script src="./css/js/modal.js"></script>
   </body>

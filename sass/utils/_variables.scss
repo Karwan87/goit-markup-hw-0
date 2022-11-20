@@ -15,6 +15,10 @@ ul {
   padding-inline-start: 0;
 }
 .btn-text {
+  &:hover {
+    background: #0a2f4d;
+    color: #fcfcfc;
+  }
   margin-bottom: 30px;
   width: 200px;
   height: 50px;
@@ -34,7 +38,38 @@ ul {
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.btn-text:hover {
-  background: #0a2f4d;
-  color: #fcfcfc;
+
+.active-link:after {
+  content: "";
+  position: absolute;
+  left: -10%;
+  bottom: -33px;
+  width: 120%;
+  height: 5px;
+  background-color: var(--blue);
+}
+a:hover {
+  color: var(--blue);
+}
+a:focus {
+  color: var(--blue);
+}
+a {
+  text-decoration: none;
+  color: var(--light-grey);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.is-hidden {
+  transform: scale(0);
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+.title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
