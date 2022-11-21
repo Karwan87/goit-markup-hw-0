@@ -99,17 +99,17 @@
     letter-spacing: 0.03em;
     color: #757575;
     margin-top: 20px;
-  }
-
-  &__icon {
-    &input:hover ~ .my-form__icon {
+    input:hover ~ .my-form__icon {
       cursor: pointer;
     }
-    &input:checked ~ .my-form__icon {
+    input:checked ~ .my-form__icon {
       background-color: var(--blue);
       fill: var(--white);
       border-color: var(--light-grey);
     }
+  }
+
+  &__icon {
     width: 16px;
     height: 16px;
     margin-top: 3px;
