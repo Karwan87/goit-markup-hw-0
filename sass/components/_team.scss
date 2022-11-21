@@ -40,13 +40,6 @@
     color: var(--light-grey);
   }
   &__social-links {
-    &:hover {
-      cursor: pointer;
-      fill: var(--white);
-      background-color: var(--blue);
-      border-radius: 50%;
-      justify-content: space-between;
-    }
     box-sizing: content-box;
     display: flex;
     margin-inline-start: 32px;
@@ -56,6 +49,13 @@
   }
 
   &__social-links-icons {
+    &:hover {
+      cursor: pointer;
+      fill: var(--white);
+      background-color: var(--blue);
+      border-radius: 50%;
+      justify-content: space-between;
+    }
     max-width: 44px;
     max-height: 44px;
     fill: var(--dark-white);
